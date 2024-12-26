@@ -12056,6 +12056,11 @@ Media queries anahí
   padding: 1em 2em;
 }
 
+.font-small {
+  font-size: 9px !important;
+  font-weight: 400;
+}
+
 .btn-channel-walmart:hover {
   opacity: 0.9;
 }
@@ -12507,6 +12512,7 @@ Media queries anahí
   .btn-channel-walmart {
     width: 120px;
     height: 25px;
+    padding: 5px 5px;
     border-radius: 27px;
     font-size: 10px;
     font-weight: 400;
@@ -15363,7 +15369,7 @@ end EFECTO Scrroll calculadora - vista paquetes
 
   .order-2 {
     order: 2;
-    margin-top: 20px;
+    margin-top: 15px;
   }
 
   .content-cuentaE {
