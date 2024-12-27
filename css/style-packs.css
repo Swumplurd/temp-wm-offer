@@ -12057,7 +12057,7 @@ Media queries anahí
 }
 
 .font-small {
-  font-size: 9px !important;
+  font-size: .81rem !important;
   font-weight: 400;
 }
 
@@ -12194,6 +12194,7 @@ Media queries anahí
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
   }
   
   
@@ -12205,11 +12206,13 @@ Media queries anahí
   
   
   .ReplayTV img{
-   width: 70px;
+   width: 65px;
   }
   
-  
-  
+  .replay-text {
+    font-size: 0.958rem;
+    letter-spacing: 0px;
+  }
   
   /* Estilos del switch */
   .switch-wrapper {
@@ -12304,7 +12307,7 @@ Media queries anahí
     padding: 0em;
     width: 100px !important;
     border-radius: 27px;
-    font-size: 8px !important;
+    font-size: 11px !important;
     font-weight: 400;
   }
 
@@ -12510,20 +12513,20 @@ Media queries anahí
   }
 
   .btn-channel-walmart {
-    width: 120px;
-    height: 25px;
+    width: 190px;
+    height: 50px;
     padding: 5px 5px;
     border-radius: 27px;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 400;
   }
 
   .h2-packs {
-    font-size: 15px;
+    font-size: 1.2rem;
   }
 
   .h2-packs span {
-    font-size: 13px;
+    font-size: 1.3rem;
   }
 
   .container-pack small {
@@ -12562,7 +12565,7 @@ Media queries anahí
     font-size: 12px;
   }
   .Plat {
-    font-size: 9px;
+    font-size: 0.7rem;
   }
 
   .cont-banner {
