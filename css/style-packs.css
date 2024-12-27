@@ -12037,12 +12037,13 @@ Media queries anahí
 .btn-channel {
   font-family: 'Roboto', sans-serif;
   border: 1px solid;
-  width: 100%;
-  border-radius: 9999px;
+  padding: 0.6em;
+  width: 140px;
+  border-radius: 12px;
   font-size: 11px;
   font-weight: 400;
-  color: #1975CE;
-  padding: 1em 2em;
+  border-radius: 12px;
+  background: transparent;
 }
 
 .btn-channel-walmart {
@@ -12172,8 +12173,16 @@ Media queries anahí
   z-index: 99999;
 }
 
-
-
+.live-channels {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  background-color: #8148DD;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
 
 .add-ur-pack {
   z-index: 900;
@@ -12295,12 +12304,15 @@ Media queries anahí
   }
 
   .btn-channel {
-    border: 2px solid #1A1A1A;
-    padding: 0em;
-    width: 100px !important;
-    border-radius: 27px;
-    font-size: 8px !important;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid;
+    padding: 0.6em;
+    width: 140px;
+    border-radius: 12px;
+    font-size: 11px;
     font-weight: 400;
+    border-radius: 12px;
+    background: transparent;
   }
 
   .btn-channel-walmart {
@@ -12505,11 +12517,15 @@ Media queries anahí
   }
 
   .btn-channel {
-    border: 2px solid #1A1A1A;
-    width: 120px;
-    border-radius: 27px;
-    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid;
+    padding: 0.6em;
+    width: 140px;
+    border-radius: 12px;
+    font-size: 11px;
     font-weight: 400;
+    border-radius: 12px;
+    background: transparent;
   }
 
   .btn-channel-walmart {
